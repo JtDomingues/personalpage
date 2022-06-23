@@ -26,9 +26,6 @@ body {
 .fonte--pequena {
   font-size: 1rem;
 }
-.centro {
-  text-align: center;
-}
 
 .background {
   background-attachment: fixed;
@@ -107,17 +104,17 @@ body {
 
 .navigation li a:link,
 .navigation li a:visited {
-  color: #c0bcc9;
+  color: #9d9d93;
   text-decoration: none;
 }
 
 .navigation li a:hover {
-  color: #65636b;
+  color: #d88a8a;
   text-decoration: underline;
 }
 
 .navigation li a:active {
-  color: #3b257c;
+  color: #9d9d93;
 }
 
 .fotos img {
@@ -128,10 +125,6 @@ body {
   object-fit: cover;
   margin-right: 18px;
   margin-top: 4px;
-}
-
-.fotos img:hover {
-  filter: none;
 }
 
 ul.experiencia {
@@ -162,19 +155,19 @@ ul.experiencia {
 }
 
 .habilidades progress {
-  accent-color: #2e2d4c;
+  accent-color: #d88a8a;
 }
 
 .footer {
   position: relative;
   padding: 120px;
-  background-color: #1b1a2f;
+  background-color: #c5cfc6;
   color: #fff;
   text-align: center;
 }
 
 .logotipo {
-  color: #2e2d4c;
+  color: #d88a8a;
   position: absolute;
   right: 50%;
   transform: translateX(50%);
