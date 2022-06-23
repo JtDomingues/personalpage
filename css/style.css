@@ -26,17 +26,19 @@ body {
 .fonte--pequena {
   font-size: 1rem;
 }
+.centro {
+  text-align: center;
+}
 
 .background {
-  background-image: url(../img/background-foods-v4.png);
   background-attachment: fixed;
-  background-color: #2e2d4c;
+  background-color: #f8edd1;
   padding: 2px;
 }
 
 .cabecalho {
   width: 72%;
-  color: #fff;
+  color: #474843;
   margin: 100px auto;
   padding: 30px;
   text-align: center;
@@ -46,7 +48,7 @@ body {
   line-height: 3rem;
   width: 72%;
   max-width: 940px;
-  color: #4d3c64;
+  color: #474843;
   border-radius: 0.5rem;
   background-color: #fff;
   margin: auto;
@@ -54,14 +56,15 @@ body {
   padding: 60px;
   box-shadow: -10px 8px 30px #312f2f;
   z-index: 2;
+  text-align: justify;
 }
 
 .subtitle--color {
-  color: #c0bcc9;
+  color: #9d9d93;
 }
 
 .avatar {
-  width: 140px;
+  width: 120px;
   float: left;
   margin-right: 20px;
 }
